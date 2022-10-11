@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/brodi/OneDrive/Documents/FirstSFMLProject'
+g++ -c main.cpp -I"C:\Users\brodi\OneDrive\Documents\SFML-2.5.1-windows-gcc-7.3.0-mingw-32-bit\SFML-2.5.1\include"
+g++ main.o -o main -L"C:\Users\brodi\OneDrive\Documents\SFML-2.5.1-windows-gcc-7.3.0-mingw-32-bit\SFML-2.5.1\lib" -lsfml-graphics -lsfml-window -lsfml-system
+./main
+make: Leaving directory 'c:/Users/brodi/OneDrive/Documents/FirstSFMLProject'
+ 
